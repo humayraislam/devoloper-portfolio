@@ -131,8 +131,10 @@ main{
    font-weight: 700px;
 }
 .resume-container{
-   display: flex;
    gap: 50px;
+}
+.resume{
+   display: flex;
 }
 .resume-item-title{
    color: #474747;
@@ -154,4 +156,25 @@ main{
 
    text-align: center;
    margin-top: 50px;
+}
+/*footer related style*/
+.footer-colum{
+   display: flex;
+}
+.form{
+   display: block;
+   color: white;
+   border: 0;
+   margin-bottom: 15px;
+   padding: 10px 300px 10px 20px;
+}
+.last{
+   background: #FFF8F3;
+   margin-top: 130px ;
+   display: flex;
+}
+.footer{
+   padding: 180px 0;
+   padding-left: 130px;
+   
 }
